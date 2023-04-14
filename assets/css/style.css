@@ -4,3 +4,11 @@ header h1 {
     font-family: 'Comfortaa', sans-serif;
     ;
 }
+
+/* hero image and styling */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pouring_at_the_bar.jpg) no-repeat center center;
+}
