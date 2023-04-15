@@ -27,6 +27,27 @@ header h1 {
     height: 600px;
     width: 100%;
     background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
-    margin: 0 auto;
     float: left;
+}
+/* general body styling */
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+/* about-us section */
+
+#about-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
+    border: 10px 0 10px 0;
+}
+
+#about-right {
+    margin: 20px 0 0 20px;
+    width: 50%;
+    height: 600px;
+    float: right;
 }
