@@ -70,7 +70,7 @@ Easily sign-up to a mailing list if they want to
 ## Structure
 Based on the strategy and scope above the site map shows a tree diagram of how the website will be constructed. This gives a brief overview of the pages and content:
 
-![Site Map](../assets/readme_images/site_map.png?raw=true "Site Map")
+![Image](../assets/readme_images/site_map.png)
  
 ## Skeleton
 In order to visualise how the content will be presented and where the features will be placed, some initial wireframes were used. Using wireframes at this stage of the projects allows the basic feel of the website to be visualised in a relatively quick way without the need for laborious coding.
