@@ -56,7 +56,7 @@ The website needs to allow the user to:
 Defining the scope allows the project of building the website to have clear expectations and deliverables. This is where the features and content are agreed up front - at least for the initial release. 
 
 Based on the Strategy above, the content requirements are:
-- The user will be looking for:
+The user will be looking for:
 - Getting a feel of the bar’s aesthetic and atmosphere 
 - Understanding how the bar was established and its values / aims 
 - The drinks on offer in the form of a menu 
@@ -114,11 +114,12 @@ Other icons are used to add some visual flavour to the site and become useful to
 
 # Features
 
-Navigation and Logo
-The logo and text: KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and link to the home page as is traditional website convention. 
-The navigation links to move around the site are located in the top right of the screen. These are About Us, Menu, Sign-Up and Contact Us which link to their relevant sections of the site. 
-The font chosen is stylish to in-keep with the branding of the bar and colours are contrasting to ensure easy reading.
-The navigation sections is consistent across the website which makes moving around the site easy and displays the information in a clear manner.  
+## Navigation and Logo
+The logo and text: 
+- KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and link to the home page as is traditional website convention. 
+- The navigation links to move around the site are located in the top right of the screen. These are About Us, Menu, Sign-Up and Contact Us which link to their relevant sections of the site. 
+- The font chosen is stylish to in-keep with the branding of the bar and colours are contrasting to ensure easy reading.
+- The navigation links are consistent across the website which makes moving around the site easy and displays the information in a clear manner.  
 
 [Add screenshot of the nav bar]
 
@@ -126,72 +127,72 @@ Issues to fix:
 Image “float” left so when re-sizing the pouring stays in the hero image - fixed with “no-repeat center left”
 Images stacked on top of each other - does each image need a container? <section> doesn’t seem enough to stack the images…?
 
-The Header
-This section provides a clear overview of what the site is about and who it is for. 
-The header text is styled to continue the stylish / sophisticated theme which the blue colour showing the name of the bar KIWI COCKTAIL BAR and the text below in a contrasting 
-Header image zooms in slightly to give some movement to the page. The image has been carefully chosen to allow an effective display responsive to different screen sizes.
+## The Header
+- This section provides a clear overview of what the site is about and who it is for. 
+- The header text is styled to continue the stylish / sophisticated theme which the blue colour showing the name of the bar KIWI COCKTAIL BAR and the text below in a contrasting 
+- Header image zooms in slightly to give some movement to the page. The image has been carefully chosen to allow an effective display responsive to different screen sizes.
 
 [Add screenshot of the header section]
 
-The About Us Section
-Aims to show off the vibe of the bar which will be a sophisticated and stylish environment.
-Information will be included to explain what the bar is about and how the offerings work. It’ll explains the classic menu which is always available as well as the guest cocktails which change regularly to keep customers interested. 
-The information displayed is easily readable with contrasting colours and a background image which complements the overall aesthetic of the site. 
+## The About Us Section
+- Aims to show off the vibe of the bar which will be a sophisticated and stylish environment.
+- Information will be included to explain what the bar is about and how the offerings work. It’ll explains the classic menu which is always available as well as the guest cocktails which change regularly to keep customers interested. 
+- The information displayed is easily readable with contrasting colours and a background image which complements the overall aesthetic of the site. 
 
 [Add screenshot of the About Us section]
 
-The Sign-Up Form
-Gives customers the opportunity to be notified of upcoming events and new mixes that are being launched. 
-The form captures First Name, Last Name, Email Address and Alcohol Preferences which’ll be used to tailor the communications.
+## The Sign-Up Form
+- Gives customers the opportunity to be notified of upcoming events and new mixes that are being launched. 
+- The form captures First Name, Last Name, Email Address and Alcohol Preferences which’ll be used to tailor the communications.
 
 [Add screenshot of the Sign-Up Form]
 
 
-Contact us 
-Contact information and a location map
-Opening hours 
+## Contact us 
+- Contact information and a location map
+- Opening hours 
 
 [Add screenshot of the Contact Us section]
 
 
-The Footer
-Social links includes to give the customer opportunity to stay connected on other platforms such as Instagram and Facebook 
-Summary of contact details 
-Footer stays as a slim bar across the bottom of the page at all times to ensure the social links and contact details are easily accessible. 
+## The Footer
+- Social links includes to give the customer opportunity to stay connected on other platforms such as Instagram and Facebook 
+- Summary of contact details 
+- Footer stays as a slim bar across the bottom of the page at all times to ensure the social links and contact details are easily accessible. 
 
 [Add screenshot of the footer section]
 
-Features to add in the future
+## Features to add in the future
 
 [if there are any….]
 
 
-Technologies Used
+# Technologies Used
 Coding languages used:
-HTML5
-CSS3
+- HTML5
+- CSS3
 
-External resources used:
+## External resources used:
 Google Fonts:
 Imported the “Comfortaa” and “Proza Libre” fonts into the CSS file. These are the only two fonts used in the project.
 
-Font Joy:
+### Font Joy:
 Used to pair the “Comfortaa” logo font with a suitable body text font - this was “Proza Libre”.
 
-Font Awesome:
+### Font Awesome:
 Icons linked into the HTML file - these include the “Kiwi” logo icon as well as visual icons throughout the site (such as social media links).
 
-Am I Responsive?:
+### Am I Responsive?:
 Used to test out how friendly the site is across various screen sizes. The responsive nature of the site is shown at the top of this document in the mock-up. 
 
-Balsamiq:
+### Balsamiq:
 Wire-framing during the drafting stage of the project to discuss and agree the initial structure and content of the site. 
 
-Git-Hub / Git-Pod:
+### Git-Hub / Git-Pod:
 Git-hub stored the project files and is used to host the site 
 Git-pod is linked into Git-hub through a browser extension and is the coding platform.
 
-Testing
+# Testing
 
 User stories 
 
@@ -210,7 +211,7 @@ Unfixed Bugs
 Deployment 
 
 
-Credits 
+# Credits 
 
 Content
 
