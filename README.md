@@ -21,9 +21,9 @@ New User Goals:
 - As a new user, I want to be able to navigate the site in an easy and intuitive fashion.
 
 Current User Goals:
-As a current user, I want to see updates to the menu as guest cocktails come and go.
-As a current user, I want to be notified when new cocktails are release and / or when events are happening.
-As a current user, I want to be able to navigate the site in an easy and intuitive fashion.
+- As a current user, I want to see updates to the menu as guest cocktails come and go.
+- As a current user, I want to be notified when new cocktails are release and / or when events are happening.
+- As a current user, I want to be able to navigate the site in an easy and intuitive fashion.
 
 # Development Planes
 
@@ -163,7 +163,7 @@ Images stacked on top of each other - does each image need a container? <section
 [Add screenshot of the footer section]
 
 ## Features to add in the future
-
+- Interactive walk through of the bar
 [if there are any….]
 
 
@@ -194,11 +194,34 @@ Git-pod is linked into Git-hub through a browser extension and is the coding pla
 
 # Testing
 
-User stories 
+## User goals 
+Going right back to the Stratgey behind the site, we must test the user goals to make sure the site provides the correct user experience.
 
-[Test out the user stories above]
+### New User Goals:
+"As a new user, I want to use a search engine, such as Google, to show me socialising venues within the area."
+- Search Engine Optimisation (SEO) has been considered in the meta data for the site. The keywords and description within the index.html file give search engines the information they need to present the site to the relevant searches. From a commerical stand-point the business would need to pay for advertising and sponsored links in order to improve the SEO.
 
-Manual Testing
+"As a new user, I want the site to present the decor, styling and feel of how the bar is going to be."
+- The images, colour schemes and fonts used have been carefully chosen to give a fair representation of the brand and the bar. This was considered during the "surface plane" phase of design. 
+- The gallery page gives the user the chance to see more images of the bar
+
+"As a new user, I want to be able to navigate the site in an easy and intuitive fashion."
+- The navigation links, logo and footer stay consistent across all the pages. 
+- The logo acts as a home button which is convention across all websites. 
+- Social links represented with conventional icons are included as these are expected by the user. 
+
+### Current User Goals:
+"As a current user, I want to see updates to the menu as guest cocktails come and go."
+- Using the navigation links, a menu of the classic cocktails can be viewed. 
+- The guest cocktails can be viewed on social media using the icon links.
+- Users have the option to sign-up for latest news and offers which'll include releases of new cocktails.
+"As a current user, I want to be notified when new cocktails are released and / or when events are happening."
+- Using the navigation links, a sign-up option is presented, this'll provide latest news and offers which'll include releases of new cocktails and events. 
+"As a current user, I want to be able to navigate the site in an easy and intuitive fashion."
+- The navigation bar at the top of the site is a standard convention that'll make the site easy to navigate. The bar is static to not take up too much screen space when scrolling. 
+- For small devices such as a mobile, the navigation bar is shrunk into a "ham-burger" icon which takes up less room on a small screen. 
+
+## Manual Testing
 
 [Clicking through the page to test out links, functionality, etc]
 
