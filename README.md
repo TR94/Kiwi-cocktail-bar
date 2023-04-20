@@ -215,8 +215,10 @@ Going right back to the Stratgey behind the site, we must test the user goals to
 - Using the navigation links, a menu of the classic cocktails can be viewed. 
 - The guest cocktails can be viewed on social media using the icon links.
 - Users have the option to sign-up for latest news and offers which'll include releases of new cocktails.
+ 
 "As a current user, I want to be notified when new cocktails are released and / or when events are happening."
 - Using the navigation links, a sign-up option is presented, this'll provide latest news and offers which'll include releases of new cocktails and events. 
+ 
 "As a current user, I want to be able to navigate the site in an easy and intuitive fashion."
 - The navigation bar at the top of the site is a standard convention that'll make the site easy to navigate. The bar is static to not take up too much screen space when scrolling. 
 - For small devices such as a mobile, the navigation bar is shrunk into a "ham-burger" icon which takes up less room on a small screen. 
