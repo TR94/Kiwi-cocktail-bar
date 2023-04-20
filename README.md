@@ -1,6 +1,6 @@
 README.md 
 
-<h1>Kiwi Cocktail Bar</h1> 
+# Kiwi Cocktail Bar 
 
 Kiwi Cocktail Bar is a bustling new cocktail bar set in the heart of Cardiff. This site aims to entice customers to visit the bar by showing them whats to offer and giving them the opportunity to sign-up to a newsletter for upcoming events. The target audience will see a sophisticated and vibrant atmosphere which they will hopefully want to be a part of. This site will be useful for customers to see what is on offer, where the bar is located and be notified on upcoming events. 
 
@@ -10,72 +10,69 @@ This website has been made to complete the first project within the Code Institu
 
 [View the live project here - LINK]
 
-<h2>User Experience</h2>
+# User Experience
 
 The target audience for this site a young to middle age demographic who are looking for a classy place to socialise and enjoy their evening. The site is intended to attract new users and keep current users updated.
 
-<ul>
+
 New User Goals:
-<li>As a new user, I want to use a search engine, such as Google, to show me socialising venues within the area.</li>
-<li>As a new user, I want the site to present the decor, styling and feel of how the bar is going to be.</li>
-<li>As a new user, I want to be able to navigate the site in an easy and intuitive fashion.</li></ul> 
+- As a new user, I want to use a search engine, such as Google, to show me socialising venues within the area.
+- As a new user, I want the site to present the decor, styling and feel of how the bar is going to be.
+- As a new user, I want to be able to navigate the site in an easy and intuitive fashion.
 
-<ul>
 Current User Goals:
-<li>As a current user, I want to see updates to the menu as guest cocktails come and go.</li>
-<li>As a current user, I want to be notified when new cocktails are release and / or when events are happening.</li>
-<li>As a current user, I want to be able to navigate the site in an easy and intuitive fashion.</li></ul>
+As a current user, I want to see updates to the menu as guest cocktails come and go.
+As a current user, I want to be notified when new cocktails are release and / or when events are happening.
+As a current user, I want to be able to navigate the site in an easy and intuitive fashion.
 
-<h2>Development Planes</h2>
+# Development Planes
 
 To develop the site into further incorporating the user stories and the commercial needs, the 5 development planes have been considered. Working through these planes in a systematic way allows the site to be fleshed out methodically and should allow the initial version of the site to be much closer to the desired final output.
 
-<h3>Strategy</h3>
+## Strategy
 
 Branding of the bar is a critical element to the appeal and customer loyalty. The website must be able to echo the Kiwi Cocktail brand accurately to ensure users connect with the branding across multiple platforms and in the bar itself. 
 
-<ul>
 Business Objectives:
-  <li>The website must:</li>
-    <li>Introduce the brand</li>
-    <li>Advertise the bar through effective search engine optimisation</li>
-    <li>Show a social and vibrant place to be which’ll engage potential customers</li>
-    <li>Draw in new customers and retain current</li></ul>
+The website must:
+- Introduce the brand
+- Advertise the bar through effective search engine optimisation
+- Show a social and vibrant place to be which’ll engage potential customers
+- Draw in new customers and retain current
 
-<ul>
 Data gathering:
-  <li>The website should be able to feedback useful data on the customers such as:</li>
-    <li>Using google analytics to see the traffic, user time and demographic of users</li>
-    <li>Gather details of users such as name, email address and marketing preferences if the user wants to sign-up to a mailing list</li></ul>
+The website should be able to feedback useful data on the customers such as:
+- Using google analytics to see the traffic, user time and demographic of users
+- Gather details of users such as name, email address and marketing preferences if the user wants to sign-up to a mailing list
 
 User requirements:
 The website needs to allow the user to:
-Get a feel for the bar - its aesthetic, atmosphere and decor
-Understand what is on offer, specifically with access to a menu
-Dive deeper into the creation, goals and how to offerings work 
-Sign-up to be notified of events and new additions to the menu if they want to 
+- Get a feel for the bar - its aesthetic, atmosphere and decor
+- Understand what is on offer, specifically with access to a menu
+- Dive deeper into the creation, goals and how to offerings work
+- Sign-up to be notified of events and new additions to the menu if they want to
 
-Scope
+## Scope
 Defining the scope allows the project of building the website to have clear expectations and deliverables. This is where the features and content are agreed up front - at least for the initial release. 
 
 Based on the Strategy above, the content requirements are:
-The user will be looking for:
-Getting a feel of the bar’s aesthetic and atmosphere 
-Understanding how the bar was established and its values / aims 
-The drinks on offer in the form of a menu 
-The option to sign-up for updates to be mailed to the user
+- The user will be looking for:
+- Getting a feel of the bar’s aesthetic and atmosphere 
+- Understanding how the bar was established and its values / aims 
+- The drinks on offer in the form of a menu 
+- The option to sign-up for updates to be mailed to the user
 
 Functionality requirements are:
 The user will be able to:
 Navigate the website easily to find the information they require
 Easily sign-up to a mailing list if they want to
 
-Structure
+## Structure
 Based on the strategy and scope above the site map shows a tree diagram of how the website will be constructed. This gives a brief overview of the pages and content:
 
 [Add in structure of the website]
  
-Skeleton
+## Skeleton
 In order to visualise how the content will be presented and where the features will be placed, some initial wireframes were used. Using wireframes at this stage of the projects allows the basic feel of the website to be visualised in a relatively quick way without the need for laborious coding.
 
 Balsamic was used to create the following wireframes:
@@ -84,9 +81,9 @@ Balsamic was used to create the following wireframes:
 
 At this stage, the wireframes are reviewed against the original strategy and goals of the project to ensure they’re aligned satisfactorily. There is an opportunity to circle back and update as required to achieve the desired output before coding begins.
 
-Surface
+## Surface
 
-Colour:
+### Colour:
 With branding being such an important aspect of this site, the colour palette is a key factor in the look and feel of the page. 
 
 The matt blue (hex code: #4D6971) is considered the colour of the Kiwi Cocktail Bar logo and its core brand colour. Using “color space” this colour was compared to find complementary colours that could also be used. These had to retain the core values of the brand, sophisticated and classic.
@@ -96,26 +93,26 @@ Hex colour #F1F2EF, “off-white” used for background space
 Hex colour #9CACA7, “light grey” used for text
 Hex colour #4D6971,  “matt blue” used for the logo and background space to contrast with the off-white
 
-Font:
+### Font:
 The font of the logo is a key consideration for the branding of the site. Using Google Fonts, the logo font used is “Comfortaa”. 
 
 For the main body of the site, a complementing font is used which was recommended using Font Joy. The main body font pairing is “Proza Libre”. 
 
 These fonts have been imported into the CSS file but the font family styling uses “sans-serif” as a fall-back font in case the import fails. 
 
-Images:
+### Images:
 The images are stored within the “assets’ folder of the site and have been sourced from Pexel. These have been carefully selected to match the branding values of the bar. 
 
 The User’s first impressions of the site are predominately based on the home page image so it is important the right messages are portrayed. In this case, the image of the bartender creating a cocktail show sophistication, some show and dramatics along with a modern environment. 
 
 The rest of the imagery throughout the site has been selected to meet the original business objectives and branding. 
 
-Icons:
+### Icons:
 The “Kiwi” logo is an icon from Font Awesome. This is embedded into the html code using an <I> element which is copied directly from the Font Awesome website. 
 
 Other icons are used to add some visual flavour to the site and become useful to save space when viewed on smaller screens. 
 
-Features
+# Features
 
 Navigation and Logo
 The logo and text: KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and link to the home page as is traditional website convention. 
