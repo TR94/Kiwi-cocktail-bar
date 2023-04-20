@@ -5,12 +5,15 @@
 header h1 {
     font-family: Comfortaa, sans-serif;
     font-size: 300%;
-    color: #385c76
+    color: #385c76;
+    display: inline-block;
 }
 
 #navigation {
     font-size: 120%;
-    color: #385c76
+    color: #385c76;
+    display: inline;
+    float: right;
 }
 
 #navigation li {
@@ -23,12 +26,29 @@ header h1 {
 
 /* hero image and styling */
 
-#hero-image {
+#hero-container {
     height: 600px;
+    width: 100%;
+    display: inline-block;
+}
+
+#hero-image {
+    height: inherit;
     width: 100%;
     background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
     float: left;
 }
+
+#cover-text {
+    margin: 20px 0 0 20px;
+    width: 50%;
+    height: 40%;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+    background-color: rgba(94, 94, 94, .7);
+}
+
 /* general body styling */
 
 body {
@@ -38,16 +58,25 @@ body {
 }
 /* about-us section */
 
-#about-image {
-    height: 300px;
+#about-container{
+    height: 400px;
     width: 100%;
-    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
-    border: 10px 0 10px 0;
+    display: block;
 }
 
-#about-right {
-    margin: 20px 0 0 20px;
+#about-image {
+    height: inherit;
     width: 50%;
-    height: 600px;
+    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
+    border: 10px 0 10px 0;
+    display: inline-block;
     float: right;
+}
+
+#about-left {
+    height: inherit;
+    width: 50%;
+    display: inline-block;
+    float: left;
+
 }
