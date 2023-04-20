@@ -69,14 +69,12 @@ body {
     width: 50%;
     background: url(../images/presenting_cocktail.jpg) no-repeat center center;
     border: 10px 0 10px 0;
-    display: inline-block;
     float: right;
 }
 
 #about-left {
     height: inherit;
     width: 50%;
-    display: inline-block;
     float: left;
 
 }
