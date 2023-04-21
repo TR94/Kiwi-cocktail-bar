@@ -104,3 +104,23 @@ body {
 #footer {
     text-align: center;
 }
+
+footer h2 {
+    font-family: Comfortaa, sans-serif;
+    font-size: 150%;
+    color: #385c76;
+}
+
+#socials {
+    list-style: none;
+}
+
+#socials > li {
+    display: inline;    
+}
+
+#socials i {
+    color: #385c76;
+    font-size: 200%;
+    padding: 10px;
+}
