@@ -246,6 +246,9 @@ Content
 Media:
 Images were taken from Pexels 
 
+Words:
+About Us text taken from https://www.northcote.com/northcote-cocktail-bar/
+
 Code:
 W3Schools
 
