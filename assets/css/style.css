@@ -61,43 +61,44 @@ body {
 #about-container{
     height: 400px;
     width: 100%;
+    padding: 5px 10px 5px 10px;
     display: block;
 }
 
 #about-image {
     height: inherit;
-    width: 50%;
+    width: 45%;
     background: url(../images/presenting_cocktail.jpg) no-repeat center center;
-    border: 10px 0 10px 0;
     float: right;
 }
 
 #about-left {
     height: inherit;
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
 /* contact and address section styling */
 
 #us-container {
-    height: 450px;
+    height: 500px;
     width: 100%;
+    padding: 5px 10px 5px 10px;
     display: block;
 }
 
 #map {
-    height: inherit;
+    height: 90%;
     width: 50%;
-    border: 10px 0 10px 0;
     float: left;
 }
 
 #us-text {
-    height: inherit;
-    width: 50%;
-    border: 10px 0 10px 0;
+    height: 90%;
+    width: 45%;
     float: right;
-    vertical-align: middle;
 }
 
+#footer {
+    text-align: center;
+}
