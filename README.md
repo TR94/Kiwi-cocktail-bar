@@ -192,6 +192,9 @@ Wire-framing during the drafting stage of the project to discuss and agree the i
 Git-hub stored the project files and is used to host the site 
 Git-pod is linked into Git-hub through a browser extension and is the coding platform.
 
+# Accessibility 
+aria labels on links 
+
 # Testing
 
 ## User goals 
