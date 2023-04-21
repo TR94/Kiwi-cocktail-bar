@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Proza+Libre&display=swap');
 
+* {
+    background-color: #F1F2EF;
+}
 /* header and nav styling */
 
 header h1 {
@@ -42,11 +45,9 @@ header h1 {
 #cover-text {
     margin: 20px 0 0 20px;
     width: 50%;
-    height: 40%;
     bottom: 30px;
     right: 30px;
     position: absolute;
-    background-color: rgba(94, 94, 94, .7);
 }
 
 /* general body styling */
