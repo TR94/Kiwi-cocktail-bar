@@ -166,3 +166,16 @@ footer h2 {
 #gallery > img {
     width: 100;
 }
+
+/* sign-up styling */
+
+#form-container {
+    width: 600px;
+    margin: auto;
+}
+
+#form-image {
+    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
+    width: 100%;
+    clear: both;
+}
