@@ -50,15 +50,20 @@ li > a:hover {
     background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
     float: left;
 }
+#cover-text {
+    height: 33%;
+    width: 33%;
+    bottom: 30px;
+    left: 35px;
+    position: absolute;
+    background-color: transparent;
+}
 
 #cover-text p {
     background-color: rgb(56, 92, 118, .7);
     color: #fff;
     border-radius: 5px;
-    width: 33%;
-    bottom: 30px;
-    left: 35px;
-    position: absolute;
+    width: 400px;
     padding: 5px;
 }
 
