@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+li > a:hover {
+    text-transform: uppercase;
+}
+
 /* hero image and styling */
 
 #hero-container {
