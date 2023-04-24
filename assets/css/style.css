@@ -184,8 +184,7 @@ footer h2 {
 #form-image {
     background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
     min-height: 550px;
-    background-size: cover;
-    position: relative;
+    background-size: 100%;
 }
 
 #form {
