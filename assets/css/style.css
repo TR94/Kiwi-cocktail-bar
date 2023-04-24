@@ -52,23 +52,24 @@ li > a:hover {
     height: 600px;
     width: 100%;
     background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
-    display: inline-block;
+    overflow: hidden;
+    position: relative;
 }
 
 #cover-text {
     height: fit-content;
-    width: 40%;
-    display: inline-block;
+    width: 350px;
     background-color: rgb(56, 92, 118, .7);
     color: #fff;
     border-radius: 5px;
-    padding: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
 }
 
-#cover-text p {
-    background-color: transparent;
-    margin: auto;   
-}
+
 
 /* general body styling */
 
