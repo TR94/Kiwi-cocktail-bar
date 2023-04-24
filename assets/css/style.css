@@ -181,17 +181,29 @@ footer h2 {
 
 /* sign-up styling */
 
-#form-image {
-    background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
-    min-height: 550px;
-    background-size: 100%;
+#form-container{
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #F1F2EF;
 }
 
-#form {
+#form-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/glasses_hanging.jpg) no-repeat center center;
+    float: right;
+}
+
+form {
+    height: 500px;
+    float: left;
     position: absolute;
-    right: 0;
-    margin: 15px 20px 15px 20px;
-    max-width: 350px;
+    left: 0;
+    margin: 50px 20px 0 20px;
+    max-width: 375px;
     padding: 10px;
     background-color: #FFF;
 }
@@ -206,4 +218,11 @@ input[type=text], input[type=email] {
 input[type=text]:focus,input [type=email]:focus {
     background-color: #F1F2EF;
     outline: none;
+}
+
+button {
+    border-radius: 5px;
+    width: 375px;
+    text-align: center;
+    text-size-adjust: 150%;
 }
