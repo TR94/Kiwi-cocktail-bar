@@ -160,13 +160,24 @@ footer h2 {
 /* gallery styling */
 
 #gallery {
-    column-count: 4;
-    clear: both; 
-    column-gap: 0px;
+    display: grid;
+    grid-gap: .5em;
+    grid-template-areas: 
+    "photoOne photoTwo photoThree photoFour"
+    "video video video video"
+    "photoFive photoSix photoSevern photoEight";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
 }
 
-#gallery > img {
-    width: 100;
+#gallery > div {
+    border: 2px solid #FFF;
+}
+
+#video {
+    grid-area: video;
+    height: 400px;
+    margin: 0 auto;
 }
 
 /* sign-up styling */
