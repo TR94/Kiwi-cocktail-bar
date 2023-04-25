@@ -7,34 +7,36 @@
 }
 /* header and nav styling */
 
-header h1 {
+header {
+    height: 50px;
+    width: 100%
+}
+
+#logo {
     font-family: Comfortaa, sans-serif;
-    font-size: 300%;
+    font-size: 140%;
     color: #385c76;
-    float: left;
     height: 50px;
     text-align: left;
     margin: 10px 5px 10px 5px;
+    width: 50%;
+    float: left;
 }
 
-#nav-container {
+#navigation {
     font-size: 120%;
+    letter-spacing: 2px;
     color: #385c76;
-    height: 50px;
-    float: right;
-    margin: 10px 5px 10px 5px;
 }
 
-#nav-container li {
-    font-family:'Proza Libre', sans-serif;
+#navigation > li {
+    float: right;
     list-style-type: none;
-    margin-right: 20px;
-    letter-spacing: 2px;
-    text-align: right;
-    display: inline-block;
-    line-height: 50px;
-    vertical-align: middle;
+    margin-right: 30px;
+    height: 50px;
+    padding-top: 20px
 }
+
 
 .active {
     text-decoration: underline;
@@ -52,33 +54,21 @@ li > a:hover {
 /* hero image and styling */
 
 #hero-container {
-    height: 600px;
-    width: 100%;
-    display: inline-block;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    max-width: 1500px;
-    background: url(../images/pouring_at_the_bar.jpg) no-repeat center left;
-    overflow: hidden;
     position: relative;
-    margin-top: 10px;
+    text-align: center;
+    display: block
 }
 
 #cover-text {
-    height: fit-content;
+    position: absolute;
+    left: 16px;
+    bottom: 25px;
     width: 350px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
     background-color: rgb(56, 92, 118, .7);
     color: #fff;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-left: 10px;
-    position: absolute;
-    bottom: 260px;
-    left: 30px;
-    margin: 0;
+    text-align: left;
 }
 
 /* general body styling */
