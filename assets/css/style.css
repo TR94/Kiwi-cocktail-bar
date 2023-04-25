@@ -160,7 +160,7 @@ footer h2 {
 /* gallery styling */
 
 #gallery {
-    column-count: 3;
+    column-count: 4;
     clear: both; 
     column-gap: 0px;
 }
