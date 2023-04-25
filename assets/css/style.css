@@ -225,10 +225,6 @@ footer h2 {
 
 #video {
     grid-area: video;
-}
-
-#video {
-    grid-area: video;
     height: 400px;
     margin: 0 auto;
 }
