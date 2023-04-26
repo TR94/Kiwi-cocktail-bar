@@ -88,19 +88,19 @@ body {
     width: 70%;
     margin: auto;
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 #about-image {
     height: inherit;
     width: 45%;
     background: url(../images/presenting_cocktail.jpg) no-repeat center center;
-    float: right;
 }
 
 #about-left {
     height: inherit;
     width: 45%;
-    float: left;
     text-align: justify;
 }
 
@@ -351,5 +351,10 @@ button {
 /* responsive sizing for mobile screen sizes */
 
 @media screen and (max-width: 500px ){
-    
+    #about-container {
+        width: 95%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
 }
