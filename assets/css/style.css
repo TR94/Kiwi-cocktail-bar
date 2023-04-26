@@ -9,7 +9,7 @@
 
 header {
     height: 50px;
-    width: 100%
+    width: 100%;
 }
 
 #logo {
@@ -42,7 +42,6 @@ header {
     color: #385c76;
 }
 
-
 .active {
     text-decoration: underline;
 }
@@ -61,7 +60,6 @@ li > a:hover {
 #hero-container {
     position: relative;
     text-align: center;
-    display: block
 }
 
 #cover-text {
@@ -279,16 +277,35 @@ button {
     text-size-adjust: 150%;
 }
 
+/* responsive styling for the gallery */
+@media screen and (max-width: 1400px){
+    
+#gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-areas: 
+    "image1 image2"
+    "image3 image4"
+    "video video"
+    "image5 image6"
+    "image7 image8";
+}
+}
+
+@media screen and (max-width: 750px) {
+    #gallery {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+
 /* responsive styling for large tablet size screens */
 
 @media screen and (max-width: 950px) {
     
     #logo {
         width: 100%;
-    }
-
-    nav {
-        float: none;
     }
     
     #about-container {
@@ -329,4 +346,10 @@ button {
         align-items: center;
         width: 400px;
     }
+}
+
+/* responsive sizing for mobile screen sizes */
+
+@media screen and (max-width: 500px ){
+    
 }
