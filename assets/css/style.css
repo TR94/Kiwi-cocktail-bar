@@ -237,21 +237,18 @@ footer h2 {
 
 #form-container{
     position: relative;
-    text-align: left;
     height: 600px;
-    width: 100%;
     margin: auto;
-    margin-top: 10px;
-    display: block;
+    margin-top: 20px;
+    text-align: center;
 }
 
 form {
     height: 500px;
-    float: left;
     position: absolute;
     left: 0;
     bottom: 25px;
-    margin: 50px 20px 0 20px;
+    margin: 0 20px 0 20px;
     max-width: 375px;
     padding: 10px;
     background-color: #F1F2EF;
@@ -299,6 +296,22 @@ button {
     }
 }
 
+@media screen and (max-width: 550) {
+#gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-areas: 
+    "image1"
+    "image2"
+    "image3"
+    "image4"
+    "video"
+    "image5" 
+    "image6"
+    "image7" 
+    "image8";
+}
+}
 
 /* responsive styling for large tablet size screens */
 
@@ -366,18 +379,10 @@ button {
         font-size: 80%;
     }
 
-    #gallery {
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
-        grid-template-areas: 
-        "image1"
-        "image2"
-        "image3"
-        "image4"
-        "video"
-        "image5" 
-        "image6"
-        "image7" 
-        "image8";
+    
+
+    #map {
+        width: 95%;
+        align-items: center;
     }
 }
