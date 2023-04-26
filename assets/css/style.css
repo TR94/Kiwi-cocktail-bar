@@ -286,6 +286,10 @@ button {
     #logo {
         width: 100%;
     }
+
+    nav {
+        float: none;
+    }
     
     #about-container {
         width: 90%;
@@ -323,5 +327,6 @@ button {
 
     #us-text {
         align-items: center;
+        width: 400px;
     }
 }
