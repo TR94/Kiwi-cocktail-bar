@@ -14,27 +14,32 @@ header {
 
 #logo {
     font-family: Comfortaa, sans-serif;
-    font-size: 140%;
+    font-size: 130%;
     color: #385c76;
     height: 50px;
     text-align: left;
     margin: 10px 5px 10px 5px;
-    width: 50%;
+    width: 470px;
     float: left;
 }
 
 #navigation {
     font-size: 120%;
     letter-spacing: 2px;
-    color: #385c76;
+    width: 450px;
+    height: 50px;
+    float: right;
+    padding-inline-start: 10px;
 }
 
 #navigation > li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-    height: 50px;
-    padding-top: 20px
+    margin-right: 25px;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #385c76;
 }
 
 
@@ -98,6 +103,7 @@ body {
     height: inherit;
     width: 45%;
     float: left;
+    text-align: justify;
 }
 
 /* contact and address section styling */
@@ -271,4 +277,51 @@ button {
     width: 375px;
     text-align: center;
     text-size-adjust: 150%;
+}
+
+/* responsive styling for large tablet size screens */
+
+@media screen and (max-width: 950px) {
+    
+    #logo {
+        width: 100%;
+    }
+    
+    #about-container {
+        width: 90%;
+    }
+
+    #us-container {
+        width: 90%;
+    }
+
+    #map {
+        width: 50%;
+    }
+}
+
+/* responsive styling for smaller tablet size screens */
+
+@media screen and (max-width: 750px) {
+    #about-container {
+        width: 95%;
+        height: 500px;
+        font-size: 90%;
+    }
+
+    #us-container {
+        width: 95%;
+        font-size: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #map {
+        width: 70%;
+        align-items: center;
+    }
+
+    #us-text {
+        align-items: center;
+    }
 }
