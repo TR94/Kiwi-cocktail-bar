@@ -20,7 +20,7 @@ header {
 }
 
 #navigation {
-    width: 500px;
+    width: 550px;
     height: inherit;
     margin: auto 0 auto auto;
 }
@@ -95,7 +95,7 @@ body {
     margin: 0 50px 0 50px;
     width: 50%;
     height: auto;
-    background: url(../images/presenting_cocktail.jpg) no-repeat center center
+    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
 }
 
 #about-left {
@@ -163,6 +163,7 @@ footer h2 {
     max-width: 70%;
     margin-top: 80px;
     margin-bottom: 80px;
+    margin: auto;
 }
 
 #menu > div {
@@ -184,6 +185,7 @@ footer h2 {
 /* gallery styling */
 
 #gallery {
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: grid;
@@ -194,6 +196,10 @@ footer h2 {
     "image1 image2 image3 image4"
     "video video video video"
     "image5 image6 image7 image8";
+}
+
+#gallery > div {
+    margin: auto;
 }
 
 #image1 {
@@ -236,22 +242,22 @@ footer h2 {
 
 /* sign-up styling */
 
-#form-container{
+#form-container {
     position: relative;
     text-align: center;
-    display: block;
+    height: auto;
+    max-width: 1500px;
+    margin: auto;
 }
 
-#form-container > img {
-    object-fit: cover;
+#form-image {
+    background: url(../images/glasses_hanging.jpg) no-repeat center center;
+    height: 600px;
 }
 
 form {
-    height: 500px;
-    position: absolute;
-    left: 10%;
-    top: 100px;
-    margin: 0 20px 0 20px;
+    height: 580px;
+    margin-left: 25px;
     max-width: 375px;
     padding: 10px;
     background-color: #F1F2EF;
@@ -272,7 +278,7 @@ input[type=text]:focus,input [type=email]:focus {
 
 button {
     border-radius: 5px;
-    width: 95%;
+    width: 200px;
     text-align: center;
     text-size-adjust: 150%;
 }
