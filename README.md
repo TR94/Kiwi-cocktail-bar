@@ -6,7 +6,7 @@ Kiwi Cocktail Bar is a bustling new cocktail bar set in the heart of Cardiff. Th
 
 This website has been made to complete the first project within the Code Institute Full Stack Developer course and focuses on the use of HTML5 and CSS3 in a responsive manner. 
 
-[Add in responsive screenshot using “Am I Responsive?”]
+![Am I Responsive? screenshot of Kiwi Cocktail Bar website](/assets/readme_images/AmIResponsive%20-%20Kiwi.PNG)
 
 [View the live project here - LINK]
 
@@ -70,7 +70,7 @@ Easily sign-up to a mailing list if they want to
 ## Structure
 Based on the strategy and scope above the site map shows a tree diagram of how the website will be constructed. This gives a brief overview of the pages and content:
 
-![Image](../assets/images/readme_images/site_map.png)
+![Site Map for Kiwi Cocktail Bar website](/assets/readme_images/site_map.png)
  
 ## Skeleton
 In order to visualise how the content will be presented and where the features will be placed, some initial wireframes were used. Using wireframes at this stage of the projects allows the basic feel of the website to be visualised in a relatively quick way without the need for laborious coding.
@@ -117,11 +117,11 @@ Other icons are used to add some visual flavour to the site and become useful to
 ## Navigation and Logo
 The logo and text: 
 - KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and link to the home page as is traditional website convention. 
-- The navigation links to move around the site are located in the top right of the screen. These are About Us, Menu, Sign-Up and Contact Us which link to their relevant sections of the site. 
+- The navigation links to move around the site are located in the top right of the screen. These are Home, Menu, Sign-Up and Contact Us which link to their relevant sections of the site. 
 - The font chosen is stylish to in-keep with the branding of the bar and colours are contrasting to ensure easy reading.
-- The navigation links are consistent across the website which makes moving around the site easy and displays the information in a clear manner.  
+- The navigation links are consistent across the website which makes moving around the site easy and displays the information in a clear manner. They are also interactive with an underline showing which page the user is on and the text transforming to uppercase when hovered over.  
 
-[Add screenshot of the nav bar]
+![Navigation bar screen grab](/assets/readme_images/nav_bar.PNG)
 
 Issues to fix: 
 Image “float” left so when re-sizing the pouring stays in the hero image - fixed with “no-repeat center left”
@@ -130,42 +130,39 @@ Images stacked on top of each other - does each image need a container? <section
 ## The Header
 - This section provides a clear overview of what the site is about and who it is for. 
 - The header text is styled to continue the stylish / sophisticated theme which the blue colour showing the name of the bar KIWI COCKTAIL BAR and the text below in a contrasting 
-- Header image zooms in slightly to give some movement to the page. The image has been carefully chosen to allow an effective display responsive to different screen sizes.
+- The image has been carefully chosen to allow an effective display responsive to different screen sizes.
 
-[Add screenshot of the header section]
+![Header screen grab](/assets/readme_images/Header_hero_image.PNG)
 
 ## The About Us Section
 - Aims to show off the vibe of the bar which will be a sophisticated and stylish environment.
-- Information will be included to explain what the bar is about and how the offerings work. It’ll explains the classic menu which is always available as well as the guest cocktails which change regularly to keep customers interested. 
+- Information is included to explain what the bar is about and how the offerings work. It explains the classic menu which is always available as well as the guest cocktails which change regularly to keep customers interested. 
 - The information displayed is easily readable with contrasting colours and a background image which complements the overall aesthetic of the site. 
 
-[Add screenshot of the About Us section]
+![About-Us screen grab](/assets/readme_images/About_Us.PNG)
 
 ## The Sign-Up Form
 - Gives customers the opportunity to be notified of upcoming events and new mixes that are being launched. 
 - The form captures First Name, Last Name, Email Address and Alcohol Preferences which’ll be used to tailor the communications.
 
-[Add screenshot of the Sign-Up Form]
-
+![Sign-up form screen grab](/assets/readme_images/Sign-up_form.PNG)
 
 ## Contact us 
 - Contact information and a location map
 - Opening hours 
 
-[Add screenshot of the Contact Us section]
-
+![Contact-Us screen grab](/assets/readme_images/Contact-Us.PNG)
 
 ## The Footer
-- Social links includes to give the customer opportunity to stay connected on other platforms such as Instagram and Facebook 
+- Social links included to give the customer opportunity to stay connected on other platforms such as Instagram, Facebook, Youtube, Twitter. 
 - Summary of contact details 
-- Footer stays as a slim bar across the bottom of the page at all times to ensure the social links and contact details are easily accessible. 
+- Footer stays as a slim bar across the bottom of the page and is consistent across all the pages. 
 
-[Add screenshot of the footer section]
+![Footer screen grab](/assets/readme_images/Footer.PNG)
 
 ## Features to add in the future
-- Interactive walk through of the bar
-[if there are any….]
-
+- Interactive walk through of the bar when its full of life would be a great way to engage potential customer further.
+- Making cocktails is a performance with dramatics and show - the website would benefit from more animation and movement to relfect this.
 
 # Technologies Used
 Coding languages used:
@@ -193,7 +190,8 @@ Git-hub stored the project files and is used to host the site
 Git-pod is linked into Git-hub through a browser extension and is the coding platform.
 
 # Accessibility 
-aria labels on links 
+- Aria labels on links
+- Alt labels on the images  
 
 # Testing
 
@@ -224,15 +222,43 @@ Going right back to the Stratgey behind the site, we must test the user goals to
  
 "As a current user, I want to be able to navigate the site in an easy and intuitive fashion."
 - The navigation bar at the top of the site is a standard convention that'll make the site easy to navigate. The bar is static to not take up too much screen space when scrolling. 
-- For small devices such as a mobile, the navigation bar is shrunk into a "ham-burger" icon which takes up less room on a small screen. 
+- For small devices such as a mobile, the navigation bar manages to say full-size for easy navigation.
 
 ## Manual Testing
 
-[Clicking through the page to test out links, functionality, etc]
+Functionality:
+Home page testing:
+- Click on navigation bar to check the links work, underline to indicate page is functioning, hover to uppercase is working - confirmed to work.
+- Click on logo/icon to check this goes back to home page on each page - confirmed to work.
+- Embedded map is displayed and functional 
+- Click each social icon in footer to check link and opens in new tab -confirmed to work for each page.
 
-Bugs - solved bugs
+Menu page testing:
+- Logo, navigation and footer already tested above
+
+Gallery page testing:
+- Logo, navigation and footer already tested above
+- All images displayed as expected 
+- Video autoplays on mute as expected
+
+Sign-Up page testing:
+- Logo, navigation and footer already tested above
+- Form required fields for First Name, Last Name and Email Address return a prompt to fill in as expected
+- Checkboxes action as expected when clicked
+- Submit button returns error response as no database to link to - hover changes style of the button as intended
+
+Responsive testing:
+- Using google dev tools, screen szies for mobile (Iphone XR), tablet (Ipad air), computer screen and larger screen (up to 1500px) the responsiveness for each page is tested.
+- Home page and Sign-up page images causing nav bar to not work on anything smaller than a computer screen around 950px
 
 Validator Testing 
+Validation tesing using W3C Mark-Up Validation Service:
+- Home page: 2 errors returned which were both related to the sizing of the iframe embedding the map. It recommends not setting the sizing values as percentages however I found this is the best way to make the map responsive to screen sizes so I will keep the values as percentages. 
+- Menu page: no errors returned
+- Gallery page: 1 error returned which is related to the sizing of the embedded video. It recommends not setting the sizing values as percentages however I found this is the best way to make the map responsive to screen sizes so I will keep the width value as a percentage.
+- Sign-Up page: Mistake made in the form with a duplicated ID, fixed. 2 errors related to the iframe of the embedded map - see home page errors above for this issue. 
+
+Bugs - solved bugs
 
 Unfixed Bugs
 
@@ -250,8 +276,9 @@ Words:
 About Us text taken from https://www.northcote.com/northcote-cocktail-bar/
 
 Code:
-W3Schools
+W3Schools helped with various coding challenges 
 
 Acknowledgements:
+
 
 [Test using slack community]

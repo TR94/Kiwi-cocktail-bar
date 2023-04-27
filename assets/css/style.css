@@ -236,17 +236,19 @@ footer h2 {
 
 #form-container{
     position: relative;
-    height: 600px;
-    margin: auto;
-    margin-top: 20px;
     text-align: center;
+    display: block;
+}
+
+#form-container > img {
+    object-fit: cover;
 }
 
 form {
     height: 500px;
     position: absolute;
-    left: 0;
-    bottom: 25px;
+    left: 10%;
+    top: 100px;
     margin: 0 20px 0 20px;
     max-width: 375px;
     padding: 10px;
@@ -268,7 +270,7 @@ input[type=text]:focus,input [type=email]:focus {
 
 button {
     border-radius: 5px;
-    width: 375px;
+    width: 95%;
     text-align: center;
     text-size-adjust: 150%;
 }
@@ -336,6 +338,14 @@ button:hover {
     #map {
         width: 50%;
     }
+
+    form {
+        height: 450px;
+        left: 5%;
+        top: 50px;
+        font-size: 80%;
+        max-width: 300px;
+    }
 }
 
 /* responsive styling for smaller tablet size screens */
@@ -371,6 +381,8 @@ button:hover {
     #cover-text {
         left: 0px;
     }
+
+    /*how to make form background image re-size*/
 }
 
 /* responsive sizing for mobile screen sizes */
