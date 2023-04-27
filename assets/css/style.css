@@ -81,7 +81,8 @@ body {
 /* about-us section */
 
 #about-container{
-    height: 400px;
+    height: fit-content;
+    max-width: 1500px;
     width: 70%;
     margin: auto;
     margin-top: 10px;
@@ -89,16 +90,17 @@ body {
     flex-direction: row;
 }
 
-#about-image {
-    height: inherit;
-    width: 45%;
-    background: url(../images/presenting_cocktail.jpg) no-repeat center center;
+#about-container > img {
+    margin: 0 50px 0 50px;
+    width: 50%;
+    height: auto;
 }
 
 #about-left {
     height: fit-content;
-    width: 45%;
+    width: 50%;
     text-align: justify;
+    margin: 0 50px 0 50px;
 }
 
 /* contact and address section styling */
