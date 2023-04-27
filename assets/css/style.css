@@ -25,6 +25,10 @@ header {
     margin: auto 0 auto auto;
 }
 
+#navigation > ul {
+    padding-inline-start: 0px;
+}
+
 #navigation li {
     font-size: 120%;
     letter-spacing: 2px;
@@ -265,7 +269,8 @@ form {
     max-width: 375px;
     padding: 10px;
     background-color: #F1F2EF;
-    border-radius: 5px;   
+    border-radius: 5px;  
+    position: relative; 
     }
 
 input[type=text], input[type=email] {
@@ -333,10 +338,10 @@ button:hover {
 
 /* responsive styling for large tablet size screens */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
     
-    #logo {
-        width: 100%;
+    header {
+        flex-direction: column;
     }
     
     #about-container {
@@ -369,20 +374,26 @@ button:hover {
         font-size: 90%;
     }
 
+    #about-left {
+        margin: 0 10px 0 0;
+    }
+
     #us-container {
         width: 95%;
         font-size: 90%;
         display: flex;
         flex-direction: column;
+        height: 600px;
     }
 
     #map {
         width: 70%;
-        align-items: center;
+        margin: auto;
+        height: 600px
     }
 
     #us-text {
-        align-items: center;
+        text-align: center;
         width: 100%;
     }
 
@@ -399,9 +410,25 @@ button:hover {
 
 /* responsive sizing for mobile screen sizes */
 
-@media screen and (max-width: 500px ){
-    #about-container {
-        width: 95%;
+@media screen and (max-width: 550px ) {
+    
+    #logo {
+        width: 375px;
+    }
+    
+    #navigation {
+        width: 375px;
+    }
+
+    #navigation li {
+        font-size: 100%;
+        width: 375px;
+        margin-right: 10px;
+        padding-inline-start: 10px;
+        letter-spacing: 1px;
+    }
+   #about-container {
+        width: 100%;
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -413,18 +440,25 @@ button:hover {
 
     #about-left {
         width: 100%;
+        text-align: justify;
     }
 
     #about-image {
         width: 100%;
+        height: 400px;
+    }
+
+    #us-text {
+    left: 0;
+    right: 0;
+    }
+
+    form {
+        left: 0;
     }
 
     #logo {
         font-size: 100%;
-    }
-
-    #navigation > li {
-        font-size: 80%;
     }
 
     #map {
