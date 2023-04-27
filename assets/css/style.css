@@ -6,7 +6,7 @@ header {
     height: fit-content;
     max-width: 1500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
 }
 
@@ -14,7 +14,6 @@ header {
     font-family: Comfortaa, sans-serif;
     font-size: 130%;
     color: #385c76;
-    height: 50px;
     text-align: left;
     margin: 10px 5px 10px 5px;
     width: 470px;
@@ -22,8 +21,8 @@ header {
 
 #navigation {
     width: 500px;
-    height: fit-content;
-    margin-right: 0px
+    height: inherit;
+    margin: auto 0 auto auto;
 }
 
 #navigation li {
