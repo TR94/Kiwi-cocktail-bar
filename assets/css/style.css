@@ -80,8 +80,9 @@ body {
 }
 /* about-us section */
 
-#about-container{
+#about-container {
     height: fit-content;
+    min-height: 370px;
     max-width: 1500px;
     width: 70%;
     margin: auto;
@@ -90,10 +91,11 @@ body {
     flex-direction: row;
 }
 
-#about-container > img {
+#about-image {
     margin: 0 50px 0 50px;
     width: 50%;
     height: auto;
+    background: url(../images/presenting_cocktail.jpg) no-repeat center center
 }
 
 #about-left {
