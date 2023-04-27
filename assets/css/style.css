@@ -102,7 +102,7 @@ body {
     height: fit-content;
     width: 50%;
     text-align: justify;
-    margin: 0 50px 0 50px;
+    margin: 0 50px 0 0;
 }
 
 /* contact and address section styling */
@@ -110,21 +110,25 @@ body {
 #us-container {
     height: 400px;
     width: 70%;
+    max-width: 1500px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 #map {
-    height: inherit;
+    height: 400px;
     width: 45%;
-    float: left;
 }
 
 #us-text {
     height: inherit;
     width: 45%;
-    float: right;
+    left: 50px;
+    right: 50px;
+    position: relative;
 }
 
 /*footer styling */ 
@@ -426,5 +430,6 @@ button:hover {
     #map {
         width: 95%;
         align-items: center;
+        height: 300px;
     }
 }
