@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Proza+Libre&display=swap');
 
 * {
-    background-color: #F1F2EF;
     max-width: 1500px;
     margin: auto;
 }
@@ -99,7 +98,7 @@ body {
 }
 
 #about-left {
-    height: inherit;
+    height: fit-content;
     width: 45%;
     text-align: justify;
 }
@@ -274,6 +273,11 @@ button {
     text-size-adjust: 150%;
 }
 
+button:hover {
+    background-color: #385c76;
+    color:#FFF;
+}
+
 /* responsive styling for the gallery */
 @media screen and (max-width: 1400px){
     
@@ -296,7 +300,7 @@ button {
     }
 }
 
-@media screen and (max-width: 550) {
+@media screen and (max-width: 550px) {
 #gallery {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
@@ -357,7 +361,15 @@ button {
 
     #us-text {
         align-items: center;
-        width: 400px;
+        width: 100%;
+    }
+
+    #hero-container {
+        height: 550px;
+    }
+
+    #cover-text {
+        left: 0px;
     }
 }
 
@@ -366,9 +378,21 @@ button {
 @media screen and (max-width: 500px ){
     #about-container {
         width: 95%;
-        height: 500px;
+        height: 700px;
         display: flex;
         flex-direction: column;
+    }
+
+    #cover-text {
+        font-size: 80%;
+    }
+
+    #about-left {
+        width: 100%;
+    }
+
+    #about-image {
+        width: 100%;
     }
 
     #logo {
@@ -378,8 +402,6 @@ button {
     #navigation > li {
         font-size: 80%;
     }
-
-    
 
     #map {
         width: 95%;
