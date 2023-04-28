@@ -292,14 +292,15 @@ The project was developed using GitPod and all changes were pushed to GitHub to 
 # Credits 
 
 Media:
-Images were taken from Pexels 
+- Images were taken from Pexels 
+- Video was taken from Pexels 
 
 Words:
-About Us text taken from https://www.northcote.com/northcote-cocktail-bar/
-Menu items taken from Lost and Found Cocktail Bar, 
+- About Us text taken from https://www.northcote.com/northcote-cocktail-bar/
+- Menu items taken from Lost and Found Cocktail Bar, https://the-lostandfound.co.uk/restaurant/bristol
 
 Code:
-W3Schools and Stack Overflow helped with various coding challenges 
+- W3Schools and Stack Overflow helped with various coding challenges 
 
 Acknowledgements:
 - Thank you to my mentor, Seun, for her time, patience and guidance on the development of this website. 
