@@ -8,7 +8,8 @@ This website has been made to complete the first project within the Code Institu
 
 ![Am I Responsive? screenshot of Kiwi Cocktail Bar website](/assets/readme_images/AmIResponsive%20-%20Kiwi.PNG)
 
-[View the live project here - LINK]
+Link to live project: https://tr94.github.io/Kiwi-cocktail-bar/
+
 
 # User Experience
 
@@ -281,8 +282,14 @@ Validation tesing using W3C Mark-Up Validation Service:
 - Gallery page: 1 error returned which is related to the sizing of the embedded video. It recommends not setting the sizing values as percentages however I found this is the best way to make the map responsive to screen sizes so I will keep the width value as a percentage.
 - Sign-Up page: Mistake made in the form with a duplicated ID, fixed. 2 errors related to the iframe of the embedded map - see home page errors above for this issue. 
 
-Bugs - solved bugs
+Bugs
 
+Solved bugs:
+
+- Navigation bar not working on smaller screens:
+This became a problem when the navigation bar moved underneath the header and caused the images on the home and form page to overlap the elements. Using the dev tool allowed the box model to be easily viewed and help understand what was happening. To fix this, I removed the float styling and opted for flexbox styling instead to control these elements. I found flexbox much easier to control compared to float.
+
+- File paths not working after deployment:
 During deployment the absolute links to the file structure were not working which lead to the site having no styling and some of the imaging wasn't showing. This was fixed by removing the "/" from these file paths allowing the browser to follow the links as intended.
 
 ![screen grab of the deployed page with no CSS](../Kiwi-cocktail-bar/assets/readme_images/deployment_css_issue.png)
@@ -292,6 +299,11 @@ Similar to the problem above, the gallery images were not displaying on the firs
 ![screen grab of the deployed gallery page with no images](../Kiwi-cocktail-bar/assets/readme_images/deployment_gallery_issue.png)
 
 Unfixed Bugs
+
+-Cover text over hero image positioning:
+Between 550px and 750px the cover text doesn't quite sit on the image correctly. Having checked the devices on the dev tools this doesn't cause a viewing issue but can be seen when the browser is not at full size and sits between these widths. This cover text element has caused lots of issues throughout the development of this website and I'd like to completely start a fresh with the image and cover text to get it working in a more stable manner. 
+
+![cover text box hanging below image](/assets/readme_images/unsolved_bug_cover_text.png)
 
 # Deployment 
 
