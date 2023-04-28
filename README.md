@@ -16,7 +16,7 @@ The target audience for this site a young to middle age demographic who are look
 
 
 New User Goals:
-- As a new user, I want to use a search engine, such as Google, to show me socialising venues within the area.
+- As a new user, I want to find local socialising venues within the area (Cardiff).
 - As a new user, I want the site to present the decor, styling and feel of how the bar is going to be.
 - As a new user, I want to be able to navigate the site in an easy and intuitive fashion.
 
@@ -77,7 +77,29 @@ In order to visualise how the content will be presented and where the features w
 
 Balsamic was used to create the following wireframes:
 
-[Create wireframes and add in]
+### Home Page: 
+The Home page wireframes can be seen below, these consider the layout on a full size screen and a mobile screen:
+
+![Home page wireframe full width](/assets/readme_images/Home%20-%20Full%20Width%20wireframe.png)
+
+![Home page wireframe mobile width](/assets/readme_images/Home%20-%20mobile%20screen%20wireframe.png)
+
+### Menu Page:
+The Menu page wireframe can be seen below:
+
+![Menu page wireframe](/assets/readme_images/Menu%20wireframe.png)
+
+### Gallery Page:
+The Gallery page wireframes can be seen below, these consider the layout on a full size screen and a mobile screen:
+
+![Gallery page wireframe full width](/assets/readme_images/Gallery%20-%20wide%20screen%20wireframe.png)
+
+![Gallery page wireframe mobile width](/assets/readme_images/Gallery%20-%20mobile%20screen%20wireframe.png)
+
+### Sign-Up Page:
+The Sign-Up page wireframe can be seen below:
+
+![Sign-up wireframe](/assets/readme_images/Sign-Up%20wireframe.png)
 
 At this stage, the wireframes are reviewed against the original strategy and goals of the project to ensure they’re aligned satisfactorily. There is an opportunity to circle back and update as required to achieve the desired output before coding begins.
 
@@ -199,7 +221,7 @@ Git-pod is linked into Git-hub through a browser extension and is the coding pla
 Going right back to the Stratgey behind the site, we must test the user goals to make sure the site provides the correct user experience.
 
 ### New User Goals:
-"As a new user, I want to use a search engine, such as Google, to show me socialising venues within the area."
+"As a new user, I want to find local socialising venues within the area (Cardiff)."
 - Search Engine Optimisation (SEO) has been considered in the meta data for the site. The keywords and description within the index.html file give search engines the information they need to present the site to the relevant searches. From a commerical stand-point the business would need to pay for advertising and sponsored links in order to improve the SEO.
 
 "As a new user, I want the site to present the decor, styling and feel of how the bar is going to be."
