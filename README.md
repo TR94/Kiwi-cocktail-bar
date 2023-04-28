@@ -287,6 +287,10 @@ During deployment the absolute links to the file structure were not working whic
 
 ![screen grab of the deployed page with no CSS](../Kiwi-cocktail-bar/assets/readme_images/deployment_css_issue.png)
 
+Similar to the problem above, the gallery images were not displaying on the first deployment. This was fixed by ammending the file paths. 
+
+![screen grab of the deployed gallery page with no images](../Kiwi-cocktail-bar/assets/readme_images/deployment_gallery_issue.png)
+
 Unfixed Bugs
 
 # Deployment 
