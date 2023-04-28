@@ -283,6 +283,10 @@ Validation tesing using W3C Mark-Up Validation Service:
 
 Bugs - solved bugs
 
+During deployment the absolute links to the file structure were not working which lead to the site having no styling and some of the imaging wasn't showing. This was fixed by removing the "/" from these file paths allowing the browser to follow the links as intended.
+
+![screen grab of the deployed page with no CSS](../Kiwi-cocktail-bar/assets/readme_images/deployment_css_issue.png)
+
 Unfixed Bugs
 
 # Deployment 
