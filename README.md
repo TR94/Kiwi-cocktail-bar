@@ -28,7 +28,7 @@ Current User Goals:
 
 # Development Planes
 
-To develop the site into further incorporating the user stories and the commercial needs, the 5 development planes have been considered. Working through these planes in a systematic way allows the site to be fleshed out methodically and should allow the initial version of the site to be much closer to the desired final output.
+To develop the site further incorporating the user stories and the commercial needs, the 5 development planes have been considered. Working through these planes in a systematic way allows the site to be fleshed out methodically and should allow the initial version of the site to be much closer to the desired final output.
 
 ## Strategy
 
@@ -38,7 +38,7 @@ Business Objectives:
 The website must:
 - Introduce the brand
 - Advertise the bar through effective search engine optimisation
-- Show a social and vibrant place to be which’ll engage potential customers
+- Show a social and vibrant environment which’ll engage potential customers
 - Draw in new customers and retain current
 
 Data gathering:
@@ -50,7 +50,7 @@ User requirements:
 The website needs to allow the user to:
 - Get a feel for the bar - its aesthetic, atmosphere and decor
 - Understand what is on offer, specifically with access to a menu
-- Dive deeper into the creation, goals and how to offerings work
+- Understand the goals and how to offerings work
 - Sign-up to be notified of events and new additions to the menu if they want to
 
 ## Scope
@@ -59,14 +59,14 @@ Defining the scope allows the project of building the website to have clear expe
 Based on the Strategy above, the content requirements are:
 The user will be looking for:
 - Getting a feel of the bar’s aesthetic and atmosphere 
-- Understanding how the bar was established and its values / aims 
+- Understanding the bar's values / aims 
 - The drinks on offer in the form of a menu 
 - The option to sign-up for updates to be mailed to the user
 
 Functionality requirements are:
 The user will be able to:
-Navigate the website easily to find the information they require
-Easily sign-up to a mailing list if they want to
+- Navigate the website easily to find the information they require
+- Easily sign-up to a mailing list if they want to
 
 ## Structure
 Based on the strategy and scope above the site map shows a tree diagram of how the website will be constructed. This gives a brief overview of the pages and content:
@@ -113,8 +113,8 @@ The matt blue (hex code: #4D6971) is considered the colour of the Kiwi Cocktail 
 
 The final colour palette is:
 Hex colour #F1F2EF, “off-white” used for background space 
-Hex colour #9CACA7, “light grey” used for text
-Hex colour #4D6971,  “matt blue” used for the logo and background space to contrast with the off-white
+Hex colour #385C76,  “matt blue” used for the logo and heading text to contrast with the off-white
+Standard body text colour (black) was used for the text
 
 ### Font:
 The font of the logo is a key consideration for the branding of the site. Using Google Fonts, the logo font used is “Comfortaa”. 
@@ -126,39 +126,35 @@ These fonts have been imported into the CSS file but the font family styling use
 ### Images:
 The images are stored within the “assets’ folder of the site and have been sourced from Pexel. These have been carefully selected to match the branding values of the bar. 
 
-The User’s first impressions of the site are predominately based on the home page image so it is important the right messages are portrayed. In this case, the image of the bartender creating a cocktail show sophistication, some show and dramatics along with a modern environment. 
+The User’s first impressions of the site are predominately based on the home page image so it is important the right messages are portrayed. In this case, the image of the bartender creating a cocktail portray sophistication, show and dramatics along with a modern environment. 
 
 The rest of the imagery throughout the site has been selected to meet the original business objectives and branding. 
 
 ### Icons:
-The “Kiwi” logo is an icon from Font Awesome. This is embedded into the html code using an <I> element which is copied directly from the Font Awesome website. 
+The “Kiwi” logo is an icon from Font Awesome. This is embedded into the html code using an <i> element which is copied directly from the Font Awesome website. 
 
-Other icons are used to add some visual flavour to the site and become useful to save space when viewed on smaller screens. 
+Other icons are used to add some visual flavour to the site and an draw the eye to differents areas of the page.
 
 # Features
 
 ## Navigation and Logo
 The logo and text: 
-- KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and link to the home page as is traditional website convention. 
-- The navigation links to move around the site are located in the top right of the screen. These are Home, Menu, Sign-Up and Contact Us which link to their relevant sections of the site. 
-- The font chosen is stylish to in-keep with the branding of the bar and colours are contrasting to ensure easy reading.
+- KIWI COCKTAIL BAR in the top left corner of the page show off the branding for the bar and links to the home page as is traditional website convention. 
+- The navigation links to move around the site are located in the top right of the screen. These are Home, Menu, Gallery and Sign-Up which link to their relevant sections of the site. 
+- The font chosen is stylish in-keeping with the branding of the bar and colours are contrasting to ensure easy reading.
 - The navigation links are consistent across the website which makes moving around the site easy and displays the information in a clear manner. They are also interactive with an underline showing which page the user is on and the text transforming to uppercase when hovered over.  
 
 ![Navigation bar screen grab](/assets/readme_images/nav_bar.PNG)
 
-Issues to fix: 
-Image “float” left so when re-sizing the pouring stays in the hero image - fixed with “no-repeat center left”
-Images stacked on top of each other - does each image need a container? <section> doesn’t seem enough to stack the images…?
-
 ## The Header
 - This section provides a clear overview of what the site is about and who it is for. 
-- The header text is styled to continue the stylish / sophisticated theme which the blue colour showing the name of the bar KIWI COCKTAIL BAR and the text below in a contrasting 
+- The header text is styled to continue the stylish / sophisticated theme, the blue colour showing the name of the bar KIWI COCKTAIL BAR and the text below in a contrasting manner.
 - The image has been carefully chosen to allow an effective display responsive to different screen sizes.
 
 ![Header screen grab](/assets/readme_images/Header_hero_image.PNG)
 
 ## The About Us Section
-- Aims to show off the vibe of the bar which will be a sophisticated and stylish environment.
+- Aims to show off the vibe of the bar, a sophisticated and stylish environment.
 - Information is included to explain what the bar is about and how the offerings work. It explains the classic menu which is always available as well as the guest cocktails which change regularly to keep customers interested. 
 - The information displayed is easily readable with contrasting colours and a background image which complements the overall aesthetic of the site. 
 
@@ -172,14 +168,13 @@ Images stacked on top of each other - does each image need a container? <section
 
 ## Contact us 
 - Contact information and a location map
-- Opening hours 
 
 ![Contact-Us screen grab](/assets/readme_images/Contact-Us.PNG)
 
 ## The Footer
 - Social links included to give the customer opportunity to stay connected on other platforms such as Instagram, Facebook, Youtube, Twitter. 
 - Summary of contact details 
-- Footer stays as a slim bar across the bottom of the page and is consistent across all the pages. 
+- Footer is a slim bar across the bottom of the page and is consistent across all the pages. 
 
 ![Footer screen grab](/assets/readme_images/Footer.PNG)
 
@@ -213,7 +208,7 @@ Git-hub stored the project files and is used to host the site
 Git-pod is linked into Git-hub through a browser extension and is the coding platform.
 
 # Accessibility 
-Accessibility is a key consideration for any website which ensures the content is accessible to all. For this websire the following aspects have been included:
+Accessibility is a key consideration for any website which ensures the content is accessible to all. For this website the following aspects have been included:
 - Aria labels on links to social media websites and navigation links 
 - Alt labels on the images   
 
@@ -263,7 +258,7 @@ Menu page testing:
 Gallery page testing:
 - Logo, navigation and footer already tested above
 - All images displayed as expected 
-- Video autoplays on mute as expected
+- Video autoplay turned off and audio on mute as expected
 
 Sign-Up page testing:
 - Logo, navigation and footer already tested above
