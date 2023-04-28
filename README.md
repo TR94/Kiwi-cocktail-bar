@@ -282,7 +282,7 @@ Validation tesing using W3C Mark-Up Validation Service:
 - Gallery page: 1 error returned which is related to the sizing of the embedded video. It recommends not setting the sizing values as percentages however I found this is the best way to make the map responsive to screen sizes so I will keep the width value as a percentage.
 - Sign-Up page: Mistake made in the form with a duplicated ID, fixed. 2 errors related to the iframe of the embedded map - see home page errors above for this issue. 
 
-Bugs
+# Bugs
 
 Solved bugs:
 
@@ -292,11 +292,11 @@ This became a problem when the navigation bar moved underneath the header and ca
 - File paths not working after deployment:
 During deployment the absolute links to the file structure were not working which lead to the site having no styling and some of the imaging wasn't showing. This was fixed by removing the "/" from these file paths allowing the browser to follow the links as intended.
 
-![screen grab of the deployed page with no CSS](../Kiwi-cocktail-bar/assets/readme_images/deployment_css_issue.png)
+![screen grab of the deployed page with no CSS](assets/readme_images/deployment_css_issue.png)
 
 Similar to the problem above, the gallery images were not displaying on the first deployment. This was fixed by ammending the file paths. 
 
-![screen grab of the deployed gallery page with no images](../Kiwi-cocktail-bar/assets/readme_images/deployment_gallery_issue.png)
+![screen grab of the deployed gallery page with no images](/assets/readme_images/deployment_gallery_issue.png)
 
 Unfixed Bugs
 
