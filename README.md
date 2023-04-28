@@ -212,8 +212,9 @@ Git-hub stored the project files and is used to host the site
 Git-pod is linked into Git-hub through a browser extension and is the coding platform.
 
 # Accessibility 
-- Aria labels on links
-- Alt labels on the images  
+Accessibility is a key consideration for any website which ensures the content is accessible to all. For this websire the following aspects have been included:
+- Aria labels on links to social media websites and navigation links 
+- Alt labels on the images   
 
 # Testing
 
@@ -284,23 +285,22 @@ Bugs - solved bugs
 
 Unfixed Bugs
 
-Deployment 
+# Deployment 
 
+The project was developed using GitPod and all changes were pushed to GitHub to keep track and store the code. The website is deployed using GitHub pages which provides a link to the website once it has been published.
 
 # Credits 
-
-Content
 
 Media:
 Images were taken from Pexels 
 
 Words:
 About Us text taken from https://www.northcote.com/northcote-cocktail-bar/
+Menu items taken from Lost and Found Cocktail Bar, 
 
 Code:
-W3Schools helped with various coding challenges 
+W3Schools and Stack Overflow helped with various coding challenges 
 
 Acknowledgements:
-
-
-[Test using slack community]
+- Thank you to my mentor, Seun, for her time, patience and guidance on the development of this website. 
+- Thanks also are given to the Code Institute Slack Community who are always on hand to help at a moments notice.
