@@ -276,6 +276,8 @@ Validation tesing using W3C Mark-Up Validation Service:
 - Menu page: no errors returned
 - Gallery page: 1 error returned which is related to the sizing of the embedded video. It recommends not setting the sizing values as percentages however I found this is the best way to make the map responsive to screen sizes so I will keep the width value as a percentage.
 - Sign-Up page: Mistake made in the form with a duplicated ID, fixed. 2 errors related to the iframe of the embedded map - see home page errors above for this issue. 
+- CSS page: 1 error returned, line 168, display flex-wrap is not a display value. Mistake fixed, display flex.
+
 
 # Bugs
 

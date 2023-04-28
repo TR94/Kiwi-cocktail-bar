@@ -165,7 +165,7 @@ footer h2 {
 /* specific styling for menu page */
 
 #menu {
-    display: flex-wrap;
+    display: flex;
     clear: both;
     height: fit-content;
     max-width: 70%;
