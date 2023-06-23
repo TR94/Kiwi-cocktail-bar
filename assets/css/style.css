@@ -166,6 +166,7 @@ footer h2 {
 
 #menu {
     display: flex;
+    flex-direction: column;
     clear: both;
     height: fit-content;
     max-width: 70%;
